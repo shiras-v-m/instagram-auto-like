@@ -1,19 +1,25 @@
 ## steps
 ====================
 
-1. Open Whatsapp web                                                                           
-1. Choose a person to send loop message.
-1. Enter the message in the message box(text field).
+1. Open instagram in pc browser
+2. open console by pressing F12                                                                        
 1. Copy the code below.
 1. paste it on browser console and hit enter key.
-1. Enter the count for how often to repeat and press ok
 1. All set!
 
 *Happy coding!* :)
+**Note : By execute this code may leads to ban your account **
 
 ```javascript
-var count = parseInt(prompt("How often to repeat?🙃", 23));
-for (let iter = 0; iter < count; iter++) {
-  document.getElementsByClassName("tvf2evcx oq44ahr5 lb5m6g5c svlsagor p2rjqpw5 epia9gcq")[0].click();
-}
+let likesCount = 0;
+setInterval(() => {
+    const heartBtn = document.querySelector('svg[aria-label="Like"][width="24"]');
+    const navigationBtn = document.querySelector('svg[aria-label="Next"]');
+    if (heartBtn) {
+        heartBtn.parentNode.parentElement.click()
+        likesCount++;
+        console.log(`You've liked ${likesCount} post(s)`);
+    }
+    navigationBtn.parentElement.parentElement.click();
+}, 5000);
 ```

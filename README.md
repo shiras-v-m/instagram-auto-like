@@ -8,7 +8,7 @@
 1. All set!
 
 **Note : By execute this code may leads to ban your instagram account **
-*Happy coding!* :)
+2. *Happy coding!* :)
 
 
 ```javascript

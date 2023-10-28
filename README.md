@@ -7,8 +7,9 @@
 1. paste it on browser console and hit enter key.
 1. All set!
 
+**Note : By execute this code may leads to ban your instagram account **
 *Happy coding!* :)
-**Note : By execute this code may leads to ban your account **
+
 
 ```javascript
 let likesCount = 0;
